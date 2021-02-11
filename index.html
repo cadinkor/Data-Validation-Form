@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="js/jquery_3.2.1.slim.js"></script>
+  <script src="js/proper.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/manual.js"></script>
+  <link rel="stylesheet" a href="css/bootstrap.css">
+  <link rel="stylesheet" a href="css/fonts.css">
+  <title>Signup Form For Registration</title>
+</head>
+<body> 
+  
+  <div class="container">
+    <div class="col-md-6 mx-auto mt-5 text-white">
+    <div class="card bg-dark p-3">
+      <h3>Signup Form For Registration</h3>
+      <p>Fill in the Blanks For Registration</p>
+        <input type="text" id="Name" class="form-control" placeholder="User Name">
+        <div id="UserBlank" class="bg-danger text-white my-2 mt-2 pl-2"></div>
+        
+        <input type="text" id="Email" class="form-control" placeholder="User Email">
+        <div id="EmailBlank" class="bg-danger text-white my-2 mt-2 pl-2"></div>
+        
+        <input type="text" id="Password" class="form-control" placeholder="User Pass">
+        <div id="PasswordBlank" class="bg-danger text-white my-2 mt-2 pl-2"></div>
+        
+        <input type="text" id="ConfirmPassword" class="form-control" placeholder="User Confirm Password">
+        <div id="ConfirmBlank" class="bg-danger text-white my-2 mt-2 pl-2"></div>
+        
+        <button class="btn btn-success" onclick="myfun()">Submit</button>
+        <div class="bg-success text-white p-2 mt-2" id="Success"></div>
+
+    </div>
+    </div>
+  </div>
+
+</body>
+</html>
