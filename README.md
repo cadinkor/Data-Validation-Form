@@ -1,2 +1,5 @@
-# Data-Validation-Form
- First attempt at creating a simple data validation form
+# Data Validation Form
+
+This repository contains data validation forms that I created in order to practice.
+
+## Final Products
